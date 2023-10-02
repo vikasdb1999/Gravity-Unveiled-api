@@ -58,8 +58,10 @@ app.post("/register", async (req, res) => {
 
 app.post("/login", async (req, res) => {
     const { username, password } = req.body;
+    console.log("AYYA");
     const userDoc = await User.findOne({ username });
     if (userDoc === null) {
+        console.log("AYYA");
         res.status(400).json('Wrong Credentials');
     }
     else {
