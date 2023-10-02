@@ -14,7 +14,7 @@ const fs = require('fs');
 
 require('dotenv').config();
 const allowedOrigins = [
-    "https://main--relaxed-sunburst-58def8.netlify.app"
+    "https://playful-licorice-77db4d.netlify.app"
 ];
 
 
